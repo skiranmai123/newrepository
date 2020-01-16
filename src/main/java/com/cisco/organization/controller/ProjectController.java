@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProjectController {
     @GetMapping(value = "/get-endpoint",produces=MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> getEndpoint() {
-        return new ResponseEntity<>("Hello India",HttpStatus.OK);
+        return new ResponseEntity<>("Hello everyone",HttpStatus.OK);
     }
 
 }
